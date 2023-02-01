@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sign_in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <div class="login-box">
+        <p id="login">Login</p>
+        <div class="siwg">
+            <div id="google-logo">
+                <i class="fa-brands fa-google fa-lg"></i>
+            </div>
+            <p>Sign in with google</p>
+            
+        </div>
+        <div class="osiwe">
+            <p>or sign in with email</p>
+        </div>
+        <form class="login-form">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label" style="font-weight: bold; ">Email*</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com"  >
+              
+            </div>
+            <div class="mb-3 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label" style="font-weight: bold;">Password*</label>
+                </div>
+                <div class="col-auto">
+                  <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="********">
+                </div>
+                <div class="col-auto">
+                  <span id="passwordHelpInline" class="form-text">
+                    Must be 8-20 characters long.
+                  </span>
+                  <span id="forgot-pwd">
+                    forgot password ?
+                  </span>
+                </div>
+            </div>
+            <div class="mb-3 form-check" >
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" style="accent-color: red;">
+              <label class="form-check-label" for="exampleCheck1"><p >Remember me</p></label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="max-width: 200px; border-radius: 40px">Login</button>
+          </form>
+          <div id="nry">
+            <p>Not registered yet? <span ><a href="sign-up.html" style="color: #5138ee; text-decoration:underline;">Create an account</a> </span></p>
+          </div>
+          
+          <div>
+            <a href="https://www.facebook.com/INSATWinterCup" target="_blank"><img src="img/wcup-p2.jpg" alt="Winter cup poster" id="wcup-p"></a>
+            
+          </div>
+    </div>
+
+    
+</body>
+</html>
